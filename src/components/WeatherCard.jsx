@@ -56,7 +56,7 @@ const WeatherCard = () => {
     };
 
     return (
-        <div className='flex flex-col gap-6 bg-white/60 backdrop-blur-md rounded-xl p-8 min-w-sm w-fit mx-4 min-h-fit py-10  text-center text-gray-900'>
+        <div className='flex flex-col gap-6 bg-white/60 backdrop-blur-md rounded-xl p-8 w-fit mx-4 min-h-fit py-10 text-center text-gray-900'>
             <div className='flex items-center justify-center gap-4 w-full'>
                 <input type='text' value={searchCity} onChange={(e) => { setSearchCity(e.target.value) }} placeholder="Search city" className='flex-1 rounded-full p-1 pl-4 bg-white py-2 md:text-xl text-orange-800' onKeyDown={handleEnterKey} />
                 <button type="button" className='bg-white text-orange-800 p-[0.6rem] rounded-full cursor-pointer hover:bg-orange-800 hover:text-white' onClick={handleSearch}><IoIosSearch size={20} /></button>
