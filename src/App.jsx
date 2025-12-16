@@ -4,7 +4,7 @@ import WeatherCard from './components/WeatherCard'
 const App = () => {
   return (
     <>
-      <div className='flex items-center justify-center bg-linear-to-br from-orange-500 to-black min-h-screen w-full'>
+      <div className='flex items-center justify-center bg-linear-to-br from-orange-500 to-black min-h-screen min-w-full w-auto'>
       <WeatherCard />
       </div>
     </>
